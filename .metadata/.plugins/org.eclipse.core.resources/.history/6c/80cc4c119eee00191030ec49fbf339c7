@@ -1,0 +1,19 @@
+package com.switchstatement.app;
+
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		
+		//Constant Declaration
+		
+		//Variable Declaration
+		int nMonth = 0;
+		
+		//Object Construction
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Give me a Number for a Month: ");
+		
+	}
+
+}

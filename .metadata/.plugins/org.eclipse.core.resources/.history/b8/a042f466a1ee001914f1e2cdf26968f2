@@ -1,0 +1,30 @@
+package com.switchstatement.app;
+import java.util.Scanner;
+
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		
+		//Constant Declaration
+		
+		//Variable Declaration
+		int nMonth = 0;
+		
+		//Object Construction
+		Scanner input = new Scanner(System.in);
+		
+		//Input Data Validation1
+		while(nMonth <= 0)
+		{
+			System.out.println("Write a Number for a Month: ");
+			nMonth = input.nextInt();
+			
+			if(nMonth <= 0 )
+			{
+				System.out.println("Invalid Number!");
+			}
+		}
+
+	}
+
+}

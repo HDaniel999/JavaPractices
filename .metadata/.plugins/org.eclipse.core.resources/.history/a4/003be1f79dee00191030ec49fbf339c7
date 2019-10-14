@@ -1,0 +1,12 @@
+package com.switchstatement.app;
+
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		int nMes = 0;
+		
+		System.out.println("Dame un numero del mes: ");
+		
+	}
+
+}
